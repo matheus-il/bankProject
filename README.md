@@ -1,9 +1,36 @@
 # BankProject
 
-Projeto feito com a intenção de rever conceitos e sintaxe do Angular.
+Projeto simples em Angular feito com a intenção de rever sintaxe e conceitos principais da tecnologia.
 
+## Imagens
+
+![New transfer](https://user-images.githubusercontent.com/22305898/201555633-f47091b3-ac32-49ce-9aae-f8158a859b6e.jpg)
+![Tranfers](https://user-images.githubusercontent.com/22305898/201555630-f92d73b0-e03a-4199-9279-301d1cc11400.jpg)
+
+## 🧪 Experimente
+Baixe o projeto para seu ambiente local:
+```bash 
+git clone https://github.com/matheus-il/bankProject.git
+```
+Entre na pasta e instale as dependências:
+```bash
+cd bankProject
+npm install
+```
+Execute!
+```bash
+npm run start
+```
+Abra outro terminal e rode:
+```bash
+npm run jw
+```
+
+### Notes
 > Angular CLI v10.1.6  
-> Node v14.21.1
+> Node v14.21.1  
+> Scss  
+> Estrutura BEM  
 
 <!-- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
 
