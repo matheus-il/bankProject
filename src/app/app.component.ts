@@ -1,4 +1,3 @@
-import { TransferenciaService } from './services/transferencia.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -8,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'bankProject';
-  transferencias: any[] = [];
+  transfers: any[] = [];
 
   constructor() {}
 

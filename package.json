@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --open",
-    "jw": "json-server --watch ./dados/db.json",
+    "jw": "json-server --watch ./data/db.json",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",

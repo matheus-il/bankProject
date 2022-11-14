@@ -1,12 +1,13 @@
-import { ExtratoComponent } from './extrato/extrato.component';
-import { NovaTransferenciaComponent } from './nova-transferencia/nova-transferencia.component';
+
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { ExtractComponent } from './extract/extract.component';
+import { NewTransferComponent } from './new-transfer/new-transfer.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'extrato', pathMatch: 'full' },
-  { path: 'extrato', component: ExtratoComponent },
-  { path: 'nova-transferencia', component: NovaTransferenciaComponent },
+  { path: '', redirectTo: 'extract', pathMatch: 'full' },
+  { path: 'extract', component: ExtractComponent },
+  { path: 'new-transfer', component: NewTransferComponent },
 ];
 
 @NgModule({
