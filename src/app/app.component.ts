@@ -10,9 +10,6 @@ export class AppComponent {
   title = 'bankProject';
   transferencias: any[] = [];
 
-  constructor(private service: TransferenciaService) {}
+  constructor() {}
 
-  transferir($event) {
-    this.service.adicionar($event).subscribe(x => console.log(x));
-  }
 }
